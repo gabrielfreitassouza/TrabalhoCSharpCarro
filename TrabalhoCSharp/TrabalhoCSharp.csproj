@@ -6,17 +6,4 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
-    <ItemGroup>
-      <Compile Remove="menu\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <EmbeddedResource Remove="menu\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="menu\**" />
-    </ItemGroup>
-
 </Project>
